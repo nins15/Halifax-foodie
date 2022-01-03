@@ -1,0 +1,20 @@
+.menu-card {
+  cursor: pointer;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .label {
+    font-size: 14px;
+    color: grey;
+  }
+
+  .price {
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+  }
+}
